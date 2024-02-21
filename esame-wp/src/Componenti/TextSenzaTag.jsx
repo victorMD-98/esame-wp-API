@@ -12,7 +12,7 @@ function RimuoviTagHTML({ testoHTML }) {
   
   return (
     <div>
-      <p>{testoSenzaTag}</p>
+      <p> <b>Descrizione:</b>{" "+testoSenzaTag}</p>
     </div>
   );
 }
